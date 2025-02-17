@@ -14,7 +14,7 @@ public class BatchListPageTest extends Baseclass{
         Assert.assertTrue(batchListPage.isBatchListDisplayed(), "Batch list is not displayed");
     }
 
-    @Test
+    @Test            //Batch count
     public void verifyBatchCount() {
         driver.get("https://www.toprankers.com/clat-online-coaching");
         BatchListPage batchListPage = new BatchListPage(driver);
