@@ -18,5 +18,6 @@ public class TestSeriesPageTest extends Baseclass {
 		
         TestSeriesPage testSeriesPage = new TestSeriesPage(driver);
         Assert.assertTrue(testSeriesPage.isTestSeriesDisplayed(), "Test series list is not displayed");
+        // 
     }
 }
